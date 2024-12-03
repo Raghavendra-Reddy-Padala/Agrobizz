@@ -1,0 +1,32 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "agrobizz-6dd59",
+          "appId": "1:680187664629:android:432629da19567d9941cdbc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "agrobizz-6dd59",
+          "configurations": {
+            "android": "1:680187664629:android:432629da19567d9941cdbc",
+            "ios": "1:680187664629:ios:666b6f3696ef1eb241cdbc",
+            "macos": "1:680187664629:ios:666b6f3696ef1eb241cdbc",
+            "web": "1:680187664629:web:fb9716eb6a13be9141cdbc"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
